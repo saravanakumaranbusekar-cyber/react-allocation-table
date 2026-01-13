@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+table {
+  border-collapse: collapse;
+  min-width: 700px;
+  background: #fff;
+}
+
+thead {
+  background-color: #fde3d3; 
+}
+
+th {
+  color: #333;
+  font-weight: 600;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px 14px;
+  text-align: left;
+}
+
+
+input {
+  width: 120px;
+  padding: 6px;
+  margin-right: 6px;
+}
+
+
+button {
+  background-color: #f76919;
+  color: #ffffff;
+  border: none;
+  border-radius: 18px;        
+  padding: 6px 12px;
+  margin-right: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background-color 0.2s ease;
+
+  font-weight: 600;      /* strong text */
+  font-size: 13px;
+  letter-spacing: 0.2px;
+}
+
+button:hover {
+  background-color: #e25f14;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+/* Grand total */
+h3 {
+  text-align: center;
+  margin-top: 16px;
+}
